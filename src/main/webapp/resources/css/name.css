@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.warp__placeholder {
+	position: absolute;
+	color: transparent;
+	font-size: .1px;
+}
+
+.warp {
+	display: block;
+	position: relative;
+	width: 814px;
+	height: 450px;
+	font: normal 62px/1 'Fredericka the Great';
+}
+
+[class*='warp__'] {
+	display: block;
+	position: absolute;
+}
+
+.warp__0 {
+	transform-origin: 50% 54px;
+	transform: translate(41.3428px, 100.9958px) rotate(-0.803079rad);
+}
+
+.warp__1 {
+	transform-origin: 50% 54px;
+	transform: translate(85.9971px, 83.4881px) rotate(-0.038841rad);
+}
+
+.warp__2 {
+	transform-origin: 50% 54px;
+	transform: translate(125.9291px, 89.51159999999999px) rotate(0.309884rad);
+}
+
+.warp__3 {
+	transform-origin: 50% 54px;
+	transform: translate(159.232px, 102.19460000000001px) rotate(0.456814rad);
+}
+
+.warp__4 {
+	transform-origin: 50% 54px;
+	transform: translate(185.967px, 118.297px) rotate(0.543405rad);
+}
+
+.warp__5 {
+	transform-origin: 50% 54px;
+	transform: translate(215.5869px, 138.8821px) rotate(0.606402rad);
+}
+
+.warp__6 {
+	transform-origin: 50% 54px;
+	transform: translate(249.0992px, 157.6937px) rotate(0.643994rad);
+}
+
+.warp__7 {
+	transform-origin: 50% 54px;
+	transform: translate(268.1573px, 175.1057px) rotate(0.66975rad);
+}
+
+.warp__8 {
+	transform-origin: 50% 54px;
+	transform: translate(294.1059px, 197.6282px) rotate(0.579423rad);
+}
+
+.warp__9 {
+	transform-origin: 50% 54px;
+	transform: translate(328.4515px, 216.5075px) rotate(0.456202rad);
+}
+
+.warp__10 {
+	transform-origin: 50% 54px;
+	transform: translate(362.6201px, 230.7883px) rotate(0.358444rad);
+}
+
+.warp__11 {
+	transform-origin: 50% 54px;
+	transform: translate(396.4548px, 240.5958px) rotate(0.276619rad);
+}
+
+.warp__12 {
+	transform-origin: 50% 54px;
+	transform: translate(423.43px, 247.17849999999999px) rotate(0.201212rad);
+}
+
+.warp__13 {
+	transform-origin: 50% 54px;
+	transform: translate(450.3647px, 252.0168px) rotate(0.106899rad);
+}
+
+.warp__14 {
+	transform-origin: 50% 54px;
+	transform: translate(486.1221px, 253.65460000000002px) rotate(-0.012711rad);
+}
+
+.warp__15 {
+	transform-origin: 50% 54px;
+	transform: translate(516.0626px, 250.59699999999998px) rotate(-0.171743rad);
+}
+
+.warp__16 {
+	transform-origin: 50% 54px;
+	transform: translate(553.3948px, 236.2153px) rotate(-0.475582rad);
+}
+
+.warp__17 {
+	transform-origin: 50% 54px;
+	transform: translate(598.8025px, 213.2808px) rotate(-0.810369rad);
+}
+
+.warp__18 {
+	transform-origin: 50% 54px;
+	transform: translate(613.226px, 192.6945px) rotate(-1.042957rad);
+}
+
+.warp__19 {
+	transform-origin: 50% 54px;
+	transform: translate(620.7474px, 164.4739px) rotate(-1.28433rad);
+}
+
+@media all and (max-width: 768px){
+	.warp {
+	display: block;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    font: normal 62px/1 'Fredericka the Great';
+    display:none;
+  }
+}

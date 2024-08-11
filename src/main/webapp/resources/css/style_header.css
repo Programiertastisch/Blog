@@ -1,0 +1,71 @@
+.page{
+	width:100%
+}
+.header{
+	height: 300px;
+}
+
+.gold{
+	height: 300px;
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.button-link{
+	display: flex;
+  padding: 18px 20px;
+    background-color: darkgoldenrod;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid darkgoldenrod;
+    border-radius: 40px;
+    cursor: pointer;
+    width: auto;
+    justify-content: center;
+}
+.button-link:hover {
+  background-color: burlywood;
+}
+
+#middle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: fantasy;
+	font-size: 50px;
+	height: 300px;
+}
+.head-index{
+	height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+@media all and (max-width: 600px){
+	.gold{
+	height: 150px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.head-index{
+	height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    top: 0;
+    position: absolute;
+    left: 0;
+    padding: 179px;
+}
+page{
+	width:100%
+}
+}
+
